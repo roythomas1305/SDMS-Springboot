@@ -1,0 +1,72 @@
+package com.kgm.sdm.controller;
+
+import com.kgm.sdm.model.Student;
+import com.kgm.sdm.service.IStudentService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@CrossOrigin("http://localhost:3000")
+@RestController
+@RequestMapping("/students")
+@RequiredArgsConstructor
+public class StudentController {
+    private final IStudentService studentService;
+
+    public StudentController(IStudentService studentService) {
+        this.studentService = studentService;
+    }
+    
+    @GetMapping
+    public ResponseEntity<List<Student>> getStudents() {
+        List<Student> students = studentService.getStudents();
+        return new ResponseEntity<>(students, HttpStatus.OK);
+    }
+
+    @PostMapping
+    public ResponseEntity<?> addStudent(@RequestBody Student student) {
+        try {
+            Student newStudent = studentService.addStudent(student);
+            return new ResponseEntity<>(newStudent, HttpStatus.CREATED);
+        } catch (Exception e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @PutMapping("/update/{id}")
+    public ResponseEntity<?> updateStudent(@RequestBody Student student, @PathVariable Long id) {
+        try {
+            Student updatedStudent = studentService.updateStudent(student, id);
+            return new ResponseEntity<>(updatedStudent, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<?> deleteStudent(@PathVariable Long id) {
+        try {
+            studentService.deleteStudent(id);
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } catch (Exception e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @GetMapping("/student/{id}")
+    public ResponseEntity<?> getStudentById(@PathVariable Long id) {
+        try {
+            Student student = studentService.getStudentById(id);
+            if (student != null) {
+                return new ResponseEntity<>(student, HttpStatus.OK);
+            } else {
+                return new ResponseEntity<>("Student not found", HttpStatus.NOT_FOUND);
+            }
+        } catch (Exception e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+        }
+    }
+}

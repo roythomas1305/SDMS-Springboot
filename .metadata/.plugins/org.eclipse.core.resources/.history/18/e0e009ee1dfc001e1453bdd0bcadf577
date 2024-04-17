@@ -1,0 +1,5 @@
+package com.kgm.sdm.model;
+
+public class Student {
+
+}

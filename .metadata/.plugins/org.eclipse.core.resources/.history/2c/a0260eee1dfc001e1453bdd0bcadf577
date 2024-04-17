@@ -1,0 +1,5 @@
+package com.kgm.sdm.service;
+
+public interface IStudentService {
+
+}

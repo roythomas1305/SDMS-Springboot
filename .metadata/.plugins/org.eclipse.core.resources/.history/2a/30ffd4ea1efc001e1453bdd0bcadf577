@@ -1,0 +1,5 @@
+package com.kgm.sdm.exception;
+
+public class CustomExceptionHandler {
+
+}
