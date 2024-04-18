@@ -70,11 +70,10 @@ Thanks! for understanding.
 
 ## Screenshots
 
-![Exodus Crowdfunding Inc  - Personal - Microsoft​ Edge 06-03-2024 01_18_33 PM](https://github.com/roythomas1305/Exodus-Crowdfunding-Inc/assets/151865034/5dbf910c-21e1-4469-8141-027fad007a82)
-![Exodus Crowdfunding Inc  - Personal - Microsoft​ Edge 06-03-2024 01_19_20 PM](https://github.com/roythomas1305/Exodus-Crowdfunding-Inc/assets/151865034/2b45b0c1-263d-4681-8b00-4bffa6bb85bb)
-![Exodus Crowdfunding Inc  - Personal - Microsoft​ Edge 06-03-2024 01_19_29 PM](https://github.com/roythomas1305/Exodus-Crowdfunding-Inc/assets/151865034/7ec9d0dd-cab0-411b-b596-182b783bf6f1)
-![Exodus Crowdfunding Inc  - Personal - Microsoft​ Edge 06-03-2024 01_19_42 PM](https://github.com/roythomas1305/Exodus-Crowdfunding-Inc/assets/151865034/44a09bc1-aabc-44dd-94d4-a1437d5e155a)
-
+![React App - Personal - Microsoft​ Edge 18-04-2024 12_18_15 AM](https://github.com/roythomas1305/SDMS-Springboot/assets/151865034/048ad500-075f-40d5-bb4d-6d2de77dee15)
+![React App - Personal - Microsoft​ Edge 18-04-2024 12_18_25 AM](https://github.com/roythomas1305/SDMS-Springboot/assets/151865034/d790c6e0-7316-4154-86f2-a3a94109e7c1)
+![React App - Personal - Microsoft​ Edge 18-04-2024 12_18_54 AM](https://github.com/roythomas1305/SDMS-Springboot/assets/151865034/7dc53b92-5b08-4651-991e-9f83eb6eb39f)
+![React App - Personal - Microsoft​ Edge 18-04-2024 12_19_38 AM](https://github.com/roythomas1305/SDMS-Springboot/assets/151865034/0c4a053e-a93c-40a0-b252-a00fd9abc6fb)
 
 ## Features
 
