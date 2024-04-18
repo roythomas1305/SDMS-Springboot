@@ -61,11 +61,7 @@ Here are dependencies used in Backend
 ```
 ## Demo Video
 
-[Click Here To View Video](https://drive.google.com/file/d/1BswqfQROjGM8UeDvJD9tSh-5Uz29c9BF/view?usp=sharing)
-
-Note :- Apologies in advance for the minor background noises within the video, also sometimes the dropdown options are not visible in the video due to problem with screen recording software, but the functionality is still there.
-
-Thanks! for understanding.
+[Click Here To View Video](https://drive.google.com/file/d/1OoQpMdMqD6u9e4QKirfF0cwI54FgJrVs/view?usp=sharing)
 
 
 ## Screenshots
