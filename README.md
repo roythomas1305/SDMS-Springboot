@@ -19,7 +19,7 @@ It was created as the Final project for the Java Full Stack Development Course a
 For Frontend
 
 ```bash
-  cd frontend
+  cd sdm-client
   npm install
   npm init
   npm start
@@ -27,12 +27,9 @@ For Frontend
 
 For Backend
 
-```bash
-  cd backend
-  node index.js
-```
+Open sdm-server in sts and run the SdmServerApplication.java file as a Spring Boot App.
 
-This should be fine but in case not working
+
 
 Here are dependencies used in Frontend
 
@@ -73,14 +70,13 @@ Here are dependencies used in Backend
 
 ## Features
 
-- There are 3 login roles - Admin, Campaigner, Backer
-- For Register there are only 2 roles - Campaigner & Backer
-- An Admin can only be added by another admin only
-- Because Admin has complete access to datbase
-- Admin can perform CRUD Operations on both User data aand Campaign data
-- Campaigner can also perform CRUD Operations, but on Campaigns only
-- Also a Campaigner can only do this on the Campaigns that was xreated by the specific Campaigner
-- Bakers can only view and donate to Campaigns
+- This is a basic Student Database Management System made using Spring Boot, React and MySQL.
+- It can perform all four CRUD operations on the student database.
+- We can view all student details in a list.
+- We can also view individual student details separately.
+- We can add new student details to the database.
+- We can also update the details of existing students.
+- We can also delete students from the database.
 
 
 ## Thank You
