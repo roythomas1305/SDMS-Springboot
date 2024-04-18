@@ -37,25 +37,19 @@ Here are dependencies used in Frontend
   npm i react-router-dom
   npm i axios
   npm install react-bootstrap bootstrap
-  npm i --save @fortawesome/fontawesome-svg-core
-  npm install --save @fortawesome/free-solid-svg-icons
-  npm install --save @fortawesome/react-fontawesome
-  npm i @fortawesome/free-brands-svg-icons
+  npm i react-icons
 ```
 
 Here are dependencies used in Backend
 
-```bash
-  npm i express
-  npm i axios
-  npm i mysql2
-  npm i express-session
-  npm i express-mysql-session
-  npm i cors
-  npm i body-parser
-  npm i cookie-parser
-  npm i crypto
-```
+- Spring Web
+- Spring Data JPA
+- JDBC Driver
+- MySQL Driver
+- Spring Boot DevTools
+- Lombok
+- H2 Database
+
 ## Demo Video
 
 [Click Here To View Video](https://drive.google.com/file/d/1OoQpMdMqD6u9e4QKirfF0cwI54FgJrVs/view?usp=sharing)
